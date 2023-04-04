@@ -10,7 +10,8 @@ import time
 # pinecone_api_key = 'b78fffce-7038-4253-80b6-809190684971'
 
 # openai_api_key = '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'
-
+#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
+openai.api_key = <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>
 pinecone_api_key ="b78fffce-7038-4253-80b6-809190684971"
 pinecone.init(
     api_key=pinecone_api_key, 
