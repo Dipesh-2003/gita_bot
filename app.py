@@ -27,7 +27,7 @@ if index_name not in pinecone.list_indexes():
     )
 st.session_state_index = pinecone.Index(index_name)
 
-openai.api_key=st.secrets['openai_api_key']
+openai.api_key=st.secrets['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']
 
 
 df_index=pd.read_csv('only_verses.csv')
