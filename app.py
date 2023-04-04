@@ -11,8 +11,8 @@ import time
 
 # openai_api_key = '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'
 
-openai.api_key=st.secrets['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']
-pinecone_api_key = st.secrets["b78fffce-7038-4253-80b6-809190684971"]
+openai.api_key='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'
+pinecone_api_key ="b78fffce-7038-4253-80b6-809190684971"
 pinecone.init(
     api_key=pinecone_api_key, 
               environment='us-east1-gcp')
