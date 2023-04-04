@@ -9,9 +9,9 @@ import time
 # from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 # pinecone_api_key = 'b78fffce-7038-4253-80b6-809190684971'
 
-# openai_api_key = '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'
+# openai_api_key = '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'
 
-openai.api_key='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'
+openai.api_key='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'
 pinecone_api_key ="b78fffce-7038-4253-80b6-809190684971"
 pinecone.init(
     api_key=pinecone_api_key, 
