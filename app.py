@@ -59,8 +59,8 @@ def card(context):
 
 COMPLETIONS_API_PARAMS = {
     "temperature": 0.0,
-    "max_tokens": 300,
-    "model": 'text-davinci-002',
+    "max_tokens": 2049,
+    "model": 'davinci',
 }
 
 header = """You are Krishna from Mahabharata, and you're here to selflessly help and answer any question or dilemma of anyone who comes to you.
