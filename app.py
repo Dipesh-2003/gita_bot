@@ -58,8 +58,8 @@ def card(context):
     return st.markdown(context)
 
 COMPLETIONS_API_PARAMS = {
-    "temperature": 0.0,
-    "max_tokens": 2049,
+    "temperature": 0.5,
+    "max_tokens": 300,
     "model": 'text-curie-001',
 }
 
