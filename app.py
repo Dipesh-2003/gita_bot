@@ -7,10 +7,12 @@ import time
 # from langchain.llms import OpenAI
 # from langchain.callbacks.base import CallbackManager
 # from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
+# pinecone_api_key = 'b78fffce-7038-4253-80b6-809190684971'
+
+# openai_api_key = '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'
 
 
-
-pinecone_api_key = st.secrets["pinecone_api_key"]
+pinecone_api_key = st.secrets["b78fffce-7038-4253-80b6-809190684971"]
 pinecone.init(
     api_key=pinecone_api_key, 
               environment='us-east1-gcp')
