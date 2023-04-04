@@ -11,7 +11,7 @@ import time
 
 # openai_api_key = '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'
 
-
+openai.api_key=st.secrets['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']
 pinecone_api_key = st.secrets["b78fffce-7038-4253-80b6-809190684971"]
 pinecone.init(
     api_key=pinecone_api_key, 
@@ -29,7 +29,7 @@ if index_name not in pinecone.list_indexes():
     )
 st.session_state_index = pinecone.Index(index_name)
 
-openai.api_key=st.secrets['openai_api_key']
+
 
 
 df_index=pd.read_csv('only_verses.csv')
