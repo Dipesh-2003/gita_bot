@@ -15,7 +15,7 @@ openai.api_key='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'
 pinecone_api_key ="b78fffce-7038-4253-80b6-809190684971"
 pinecone.init(
     api_key=pinecone_api_key, 
-              environment='us-east1-gcp')
+              environment='us-east4-gcp')
 
 index_name = 'bhagvad-gita-recovered'
 
